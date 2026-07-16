@@ -1,0 +1,5 @@
+@import "tailwindcss"
+
+.example {
+    color: theme('colors.red.50');
+}
