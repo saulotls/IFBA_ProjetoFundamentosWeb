@@ -144,7 +144,7 @@ body {
 .catalogo {
     padding: 2% 14% 2%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(11.25rem, 1fr));
     gap: 1.563rem;
 }
 .livro{
@@ -153,7 +153,7 @@ body {
     transition: transform .6s;
 }
 .livro:hover{
-    transform: translateY(-5px);
+    transform: translateY(-0.313rem);
     color: #e8b86d;
     cursor: pointer;
 }
