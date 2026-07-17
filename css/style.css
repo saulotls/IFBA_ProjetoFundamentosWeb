@@ -97,23 +97,23 @@ body {
     object-fit: fill;
     display: block;
     /* funcoes para aplicar degrade nas bordas da imagem*/
-    mask-image: 
+    /* mask-image: 
         linear-gradient(
             to right, 
             transparent 0%, 
-            #ffffff 5%, 
+            #e8b86d 10%, 
             #093a49 95%, 
             transparent 100%
         ),
         linear-gradient(
             to bottom,
             transparent 0%,
-            #ffffff 5%, 
+            #e8b86d 10%, 
             #093a49 95%, 
             transparent
             100%
-    );
-    mask-composite: intersect;
+        );
+    mask-composite: intersect; */
 }
 
 /* SOBRE */
