@@ -1,19 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Refúgio Literário</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/style.css">
-    </head>
-    <body>
-       <header class="cabecalho">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Refúgio Literário</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
       <div class="logo">
         <a href="home.html">
-          <img src="../img/logo.png" alt="logo"/>
+          <img src="../img/logo.png" alt="logo" />
         </a>
       </div>
       <nav class="menu">
@@ -28,5 +28,28 @@
         </ul>
       </nav>
     </header>
-    </body>
+    
+    <section class="formulario">
+      <h1 style="text-align: center">Entre em Contato</h1>
+
+      <form>
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Digite seu nome" required />
+
+        <label for="email">E-mail</label>
+        <input type="email" placeholder="Digite seu e-mail" required />
+
+        <label for="assunto">Assunto</label>
+        <input type="text" placeholder="Assunto da mensagem" />
+
+        <label for="mensagem">Mensagem</label>
+        <textarea
+          rows="10"
+          placeholder="Escreva sua mensagem"
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </body>
 </html>
